@@ -1,0 +1,9 @@
+body {
+  text-align: center;
+  background-color: #eefbfb;
+}
+
+.results {
+  display: flex;
+  justify-content: center;
+}
