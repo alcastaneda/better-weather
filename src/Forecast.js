@@ -14,8 +14,8 @@ const Forecast = props => {
       <div className="info">
         <h3>{date}</h3>
         <p>{description}</p>
-        <p>Max Temp: {maxTemp}</p>
-        <p>Min Temp: {minTemp}</p>
+        <p>Max Temp: {maxTemp} &deg;C</p>
+        <p>Min Temp: {minTemp} &deg;C</p>
         <p>Wind: {wind}</p>
       </div>
     </div>

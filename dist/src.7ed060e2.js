@@ -34411,7 +34411,7 @@ var createRoute = function createRoute(basepath) {
 var shouldNavigate = function shouldNavigate(event) {
   return !event.defaultPrevented && event.button === 0 && !(event.metaKey || event.altKey || event.ctrlKey || event.shiftKey);
 }; ////////////////////////////////////////////////////////////////////////
-},{"react":"../node_modules/react/index.js","warning":"../node_modules/warning/browser.js","prop-types":"../node_modules/prop-types/index.js","invariant":"../node_modules/invariant/browser.js","create-react-context":"../node_modules/create-react-context/lib/index.js","react-lifecycles-compat":"../node_modules/react-lifecycles-compat/react-lifecycles-compat.es.js","./lib/utils":"../node_modules/@reach/router/es/lib/utils.js","./lib/history":"../node_modules/@reach/router/es/lib/history.js"}],"Forecast.js":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","warning":"../node_modules/warning/browser.js","prop-types":"../node_modules/prop-types/index.js","invariant":"../node_modules/invariant/browser.js","create-react-context":"../node_modules/create-react-context/lib/index.js","react-lifecycles-compat":"../node_modules/react-lifecycles-compat/react-lifecycles-compat.es.js","./lib/utils":"../node_modules/@reach/router/es/lib/utils.js","./lib/history":"../node_modules/@reach/router/es/lib/history.js"}],"../src/Forecast.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -34442,7 +34442,7 @@ var Forecast = function Forecast(props) {
     alt: "Weather Icon"
   })), _react.default.createElement("div", {
     className: "info"
-  }, _react.default.createElement("h3", null, date), _react.default.createElement("p", null, description), _react.default.createElement("p", null, "Max Temp: ", maxTemp), _react.default.createElement("p", null, "Min Temp: ", minTemp), _react.default.createElement("p", null, "Wind: ", wind)));
+  }, _react.default.createElement("h3", null, date), _react.default.createElement("p", null, description), _react.default.createElement("p", null, "Max Temp: ", maxTemp, " \xB0C"), _react.default.createElement("p", null, "Min Temp: ", minTemp, " \xB0C"), _react.default.createElement("p", null, "Wind: ", wind)));
 };
 
 var _default = Forecast;
@@ -34480,7 +34480,7 @@ var Results = function Results(_ref) {
 
 var _default = Results;
 exports.default = _default;
-},{"react":"../node_modules/react/index.js","./Forecast":"Forecast.js"}],"../node_modules/regenerator-runtime/runtime.js":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","./Forecast":"../src/Forecast.js"}],"../node_modules/regenerator-runtime/runtime.js":[function(require,module,exports) {
 /**
  * Copyright (c) 2014-present, Facebook, Inc.
  *
